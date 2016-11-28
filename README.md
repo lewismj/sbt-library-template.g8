@@ -23,7 +23,7 @@ scala_version=2.12.0
 ```sbt new lewismj/sbt-library-template.g8```
 
 ```sbt compile``` and ```sbt publish-local``` will compile and publish to local repository as expected.
-```sbt assmebly``` will produce the 'uber-jar' in a 'bin' directory in the project folder.
+```sbt assmebly``` will create a 'bin' directory in the project folder and write the 'uber-jar' to that location.
 
 ## Directory Layout
 
