@@ -2,7 +2,7 @@
 
 This [giter8][1] template will write SBT build files for a Scala library.
 
-Placing source code into a subdirectory ensures that a solution can quickly be converted to a library stack (multi-module) if required.
+It places source code into a subdirectory to ensure that a solution can quickly be converted to a multi-module project if required.
 
 If necessary, the referenced assembly plugin may be used to produce an 'uber-jar' of the library together with its dependencies.
 
@@ -22,8 +22,8 @@ scala_version=2.12.0
 
 ```sbt new lewismj/sbt-library-template.g8```
 
-```sbt compile``` and ```sbt publish-local``` will compile and publish to local repository as expected.
-```sbt assmebly``` will create a 'bin' directory in the project folder and write the 'uber-jar' to that location.
+```sbt compile``` and ```sbt publish-local``` will compile and then publish to the local repository as expected.
+```sbt assmebly``` will create a 'bin' directory within the project folder and write the 'uber-jar' to that location.
 
 ## Directory Layout
 
